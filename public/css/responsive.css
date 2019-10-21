@@ -1,0 +1,105 @@
+/* smaller than 1024px */
+@media (max-width: 1024px) {
+
+  h2 {
+    font-size: 1.35em;
+  }
+
+  .itemsOverview .item-image img{
+    object-fit: cover;
+    width: auto;
+  }
+
+}
+
+/* smaller than 991px */
+@media (max-width: 991px) {
+
+  .navbar-toggler{
+    padding: 0.25rem 0;
+  }
+
+  /* Menu*/
+  nav.navbar ul.nav{
+    padding: 0 15px;
+  }
+
+  nav.navbar ul.nav > li.nav-item a.nav-link{
+    padding: 10px 10px;
+  }
+
+  nav.navbar ul.nav > li.nav-item.show a.nav-link:after,
+  nav.navbar ul.nav > li.nav-item.active a.nav-link:after,
+  nav.navbar ul.nav > li.nav-item:hover a.nav-link:after{
+    display: none;
+  }
+
+  nav.navbar ul.nav > li.nav-item.dropdown .dropdown-menu{
+    padding:0;
+    display: block;
+    width: 100%;
+    position: static;
+    border:1px solid #e6e6e6;
+  }
+
+  nav.navbar .dropdown-menu .dropdown-item{
+    background-color: transparent;
+    color: #333333;
+  }
+
+  nav.navbar .dropdown-menu .dropdown-divider{
+    border-color: #e6e6e6;
+  }
+  /* END menu */
+
+  /* Zoeken */
+  #search-field{
+    max-width: none;
+    margin: 10px 15px;
+  }
+
+  #search-field .form-control{
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+  /* END - Zoeken */
+
+  h2 {
+    font-size: 1.46em;
+  }
+
+  .itemsOverview .item-image img{
+    object-fit:fill;
+    width: 100%;
+  }
+
+}
+
+/* smaller than 736px */
+@media (max-width: 736px) {
+
+
+}
+
+/* smaller than 375px */
+@media (max-width: 414px) {
+
+  .item-image{
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+}
+
+
+/* smaller than 340px */
+@media (max-width: 340px) {
+
+  #city-logo{
+    height: 55px;
+  }
+
+}
